@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.stuartabhi.nurisslife.Fragment.Latestarticle">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:id="@+id/articlec"
+        android:layout_marginLeft="5dp"
+        android:typeface="sans"
+        android:singleLine="true"
+        android:focusable="false"
+        android:textSize="15sp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="@string/article"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/artc1"
+        android:layout_height="match_parent"
+        android:src="@mipmap/article1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColorHint="@color/sky"
+        android:text="@string/article1_base"
+        android:id="@+id/imageviewc1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:text="@string/article1"
+        android:id="@+id/imageviewc11"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="match_parent"
+        android:id="@+id/artc2"
+        android:src="@mipmap/article2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColorHint="@color/sky"
+        android:text="@string/article2_base"
+        android:id="@+id/imageviewc2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/article2"
+        android:layout_marginTop="8dp"
+        android:id="@+id/imageviewc21"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/artc3"
+        android:layout_marginTop="30dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/article3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:background="@color/grey"
+        android:textColorHint="@color/sky"
+        android:text="@string/article3_base"
+        android:layout_marginTop="5dp"
+        android:id="@+id/imageviewc3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:text="@string/article3"
+        android:id="@+id/imageviewc31"/>
+
+</LinearLayout>
+</ScrollView>

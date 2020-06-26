@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map_content"
+    tools:context="com.demo.stuartabhi.nurisslife.Fragment.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_height="match_parent"
+        android:id="@+id/map_container">
+
+    </FrameLayout>
+
+</FrameLayout>

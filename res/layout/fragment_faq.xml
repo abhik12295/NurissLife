@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/rnxf"
+    android:layout_height="match_parent"
+    tools:context="com.demo.stuartabhi.nurisslife.Fragment.FAQ">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="80dp"
+            android:text="FREQUENTLY ASKED QUESTION"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/faq"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:id="@+id/faq1"
+            android:background="@color/sky"
+            android:text="What is Urnifer?"/>
+        <TextView
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tfaq1"
+            android:text="@string/faq_1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:id="@+id/faq2"
+            android:background="@color/sky"
+            android:text="What is Caluris?"/>
+        <TextView
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tfaq2"
+            android:text="@string/faq_2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:id="@+id/faq3"
+            android:background="@color/sky"
+            android:text="What is Imboprot?"/>
+        <TextView
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tfaq3"
+            android:text="@string/faq_3"/>
+     </LinearLayout>
+    </LinearLayout>
+</ScrollView>

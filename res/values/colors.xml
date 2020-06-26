@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#39ae6c</color>
+    <color name="colorPrimaryDark">#278656</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#fbdf840e</color>
+    <color name="green">#fb0edf73</color>
+    <color name="cyan">#1edbec</color>
+    <color name="skin">#fcd06b</color>
+    <color name="white">#ffff</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="grey">#c2c0bf</color>
+    <color name="violet">#a560ff</color>
+    <color name="sky">#35cfea</color>
+    <color name="about_us_back">#7abe8a</color>
+    <color name="common_action_bar_splitter">#c2c0bf</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_v"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_career"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Career"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="FAQ"
+            />
+        <item
+            android:id="@+id/nav_latest_article"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Latest Article"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_comment_black_24dp"
+                android:title="Nuriss Talk" />
+            <item
+                android:id="@+id/nav_contact1"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Contact"
+                />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_my_location_black_24dp"
+                android:title="Map" />
+        </menu>
+    </item>
+
+</menu>

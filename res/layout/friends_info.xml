@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <com.demo.stuartabhi.nurisslife.FlipView.FontTextView
+        style="@style/TextView.Nickname"
+        android:id="@+id/nickname" />
+
+    <LinearLayout
+        android:layout_below="@+id/nickname"
+        android:id="@+id/interestsPrimary"
+        style="@style/LinearLayout.Interests">
+
+    <com.demo.stuartabhi.nurisslife.FlipView.FontTextView
+        style="@style/TextView.Interest"
+        android:id="@+id/interest_1" />
+
+    <com.demo.stuartabhi.nurisslife.FlipView.FontTextView
+        style="@style/TextView.Interest"
+        android:id="@+id/interest_2" />
+
+    <com.demo.stuartabhi.nurisslife.FlipView.FontTextView
+        style="@style/TextView.Interest"
+        android:id="@+id/interest_3" />
+
+</LinearLayout>
+   </FrameLayout>
