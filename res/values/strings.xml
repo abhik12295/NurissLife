@@ -22,7 +22,7 @@
     <string name="aboutus_large">WE PROVIDE HEALTH OF INTERNATIONAL STANDARD (WHO PARAMETER) OF BEST QUALITY HEALTH PRODUCT</string>
 
     <!-- Google Api-->
-    <string name="google_api_keys">AIzaSyCjGp_5T2u0HC-mXAtgSz974XcLcdILQcw</string>
+    <string name="google_api_keys">AIzaSyCjGp_5T2u0HC-*********cLcdILQcw</string>
 
     <!--Home-->
     <string name="login_me">Already Registered! Login Me</string>
